@@ -1,0 +1,14 @@
+[project]
+name = "qkh"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "prompt>=0.4.1",
+]
+[project.scripts]
+vd-main = "VD_games.scripts.VD_games:main"
+[tool.uv]
+package = true
+
