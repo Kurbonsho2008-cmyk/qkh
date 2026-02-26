@@ -9,6 +9,8 @@ dependencies = [
 ]
 [project.scripts]
 vd-main = "VD_games.scripts.VD_games:main"
+vd-calc = "VD_games.scripts.VD_calc:main"
+vd-gcd = "VD_games.scripts.VD_gcd:main"
 [tool.uv]
 package = true
 
