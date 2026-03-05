@@ -1,0 +1,21 @@
+[project]
+name = "vd-games"
+version = "0.1.0"
+description = "Games for VD project"
+authors = [{name = "qkh"}]
+dependencies = []
+requires-python = ">=3.12"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["VD_games", "games"]
+
+[tool.ruff]
+line-length = 79
+target-version = "py311"
+
+[project.scripts]
+VD-even = "VD_games.scripts.VD_even:play_even_game"
